@@ -8,3 +8,12 @@
 
 https://www.bnb.bg/Statistics/StExternalSector/StExchangeRates/StERForeignCurrencies/index.htm?download=xml&search=&lang=BG
 Курсове на българския лев към отделни чуждестранни валути и цена на златото, валидни за 29.10.2024
+
+akostadinov@postbank.bg
+
+H2 DB в PostgreSQL мод: http://localhost:8080/h2-console/
+
+http://localhost:8080/download-currencies
+
+ws://localhost:8080/ws-download-currencies
+
