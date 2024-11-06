@@ -10,9 +10,4 @@ public interface CurrenciesRepository extends CrudRepository<Currencies,Integer>
 	
 	Currencies
 	findByCode(String code);
-	
-//	@Modifying()
-//	@Query ("update Currencies c set RATE = @rate where CODE = @code ")
-//	boolean
-//	updateRateByCode( @Param("code") String code, @Param("rate") double rate);
 }

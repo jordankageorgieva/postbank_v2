@@ -76,7 +76,7 @@ public class BnbDataUpdate {
 				if (cur.rate() != rate) {
 					// make update
 					System.out.println("row to be updated " + i++);
-					
+
 					// save NEW CUR
 
 					Currencies newCUR = new Currencies(code, rate, bglabel, englabel);

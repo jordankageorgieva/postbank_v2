@@ -16,13 +16,13 @@ public class WebSocketConfig implements WebSocketConfigurer {
 	public static String onlyUpdateCurreencies;
 
 	@Bean
-    WebSocketHandler tutorialHandler() {
+    WebSocketHandler currenciesHandler() {
 		return new UpdatedCurrenciesHandler();
     }
 
 	@Override
 	public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-		registry.addHandler(tutorialHandler(), "/ws-download-currencies")
+		registry.addHandler(currenciesHandler(), "/ws-download-currencies")
         .setAllowedOrigins("*");
 		
 	}
