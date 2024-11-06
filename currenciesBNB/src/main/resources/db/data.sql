@@ -22,9 +22,11 @@ INSERT INTO CURRENCIES (CODE, RATE, BGLABEL, ENGLABEL) VALUES
   ('PHP', 3.11155, 'Филипинско песо', 'Philippine Peso'),
   ('PLN', 4.49823, 'Полска злота', 'Zloty'),
   ('RON', 3.9314, 'Румънска лея', 'Romanian Leu'),
+  ('RUB', 3.9314, 'Руска рубла *', 'Russian ruble'),
   ('SEK', 1.69821, 'Шведска крона', 'Swedish Krona'),
   ('SGD', 1.36896, 'Сингапурски долар', 'Singapore Dollar'),
   ('THB', 5.37316, 'Тайландски бат', 'Baht'),
   ('TRY', 5.29331, 'Турска лира', 'Turkish Lira'),
   ('USD ', 1.81532, 'Щатски долар', 'US Dollar'),
-  ('ZAR', 1.02366, 'Южноафрикански ранд', 'Rand');
+  ('ZAR', 1.02366, 'Южноафрикански ранд', 'Rand'),
+  ('XAU', 5015.75, 'Злато', 'Gold');
